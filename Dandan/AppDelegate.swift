@@ -16,6 +16,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+//        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+//        
+//        self.window?.rootViewController = ViewController()
+//        
+//        self.window?.makeKeyAndVisible()
+//        
+//        let tap = UITapGestureRecognizer(target: self, action: "windowBytap:")
+//        
+//        self.window?.addGestureRecognizer(tap)
+        
         return true
     }
 
@@ -41,6 +52,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+//    func windowBytap(tap:UITapGestureRecognizer){
+//        
+//       // print("you are studip")
+//        
+//       // let point = tap.locationInView(self.window?.rootViewController!.view)
+//        
+//        print(self.window?.getCurrentPoint)
+//    }
 
 }
 

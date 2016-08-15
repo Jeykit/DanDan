@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A42E94571D595BE2008B509E /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42E94561D595BE2008B509E /* Global.swift */; };
+		A4352E381D5EB352006559B8 /* MUCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4352E371D5EB352006559B8 /* MUCollectionViewCell.swift */; };
+		A4352E3A1D5F13B7006559B8 /* MUViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4352E391D5F13B7006559B8 /* MUViewController.swift */; };
+		A48DEDFD1D5AD3FD00874FA8 /* MUNetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48DEDFC1D5AD3FD00874FA8 /* MUNetworkRequest.swift */; };
+		A4C0E4731D5DA42E0017874C /* MUTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C0E4721D5DA42E0017874C /* MUTableViewCell.swift */; };
+		A4C0E4751D5DC1C20017874C /* MUView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C0E4741D5DC1C20017874C /* MUView.swift */; };
 		A4D5DA021D582ECD0066160E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D5DA011D582ECD0066160E /* AppDelegate.swift */; };
 		A4D5DA041D582ECD0066160E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D5DA031D582ECD0066160E /* ViewController.swift */; };
 		A4D5DA071D582ECD0066160E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D5DA051D582ECD0066160E /* Main.storyboard */; };
@@ -14,6 +20,7 @@
 		A4D5DA0C1D582ECD0066160E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D5DA0A1D582ECD0066160E /* LaunchScreen.storyboard */; };
 		A4D5DA171D582ECD0066160E /* DandanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D5DA161D582ECD0066160E /* DandanTests.swift */; };
 		A4D5DA221D582ECD0066160E /* DandanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D5DA211D582ECD0066160E /* DandanUITests.swift */; };
+		A4D5DA301D582F250066160E /* Extentsion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D5DA2F1D582F250066160E /* Extentsion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A42E94561D595BE2008B509E /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		A4352E371D5EB352006559B8 /* MUCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MUCollectionViewCell.swift; sourceTree = "<group>"; };
+		A4352E391D5F13B7006559B8 /* MUViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MUViewController.swift; sourceTree = "<group>"; };
+		A48DEDFC1D5AD3FD00874FA8 /* MUNetworkRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MUNetworkRequest.swift; sourceTree = "<group>"; };
+		A4C0E4721D5DA42E0017874C /* MUTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MUTableViewCell.swift; sourceTree = "<group>"; };
+		A4C0E4741D5DC1C20017874C /* MUView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MUView.swift; sourceTree = "<group>"; };
 		A4D5D9FE1D582ECD0066160E /* Dandan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dandan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4D5DA011D582ECD0066160E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4D5DA031D582ECD0066160E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,7 @@
 		A4D5DA1D1D582ECD0066160E /* DandanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DandanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4D5DA211D582ECD0066160E /* DandanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DandanUITests.swift; sourceTree = "<group>"; };
 		A4D5DA231D582ECD0066160E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4D5DA2F1D582F250066160E /* Extentsion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extentsion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +113,17 @@
 			children = (
 				A4D5DA011D582ECD0066160E /* AppDelegate.swift */,
 				A4D5DA031D582ECD0066160E /* ViewController.swift */,
+				A42E94561D595BE2008B509E /* Global.swift */,
+				A4D5DA2F1D582F250066160E /* Extentsion.swift */,
+				A48DEDFC1D5AD3FD00874FA8 /* MUNetworkRequest.swift */,
 				A4D5DA051D582ECD0066160E /* Main.storyboard */,
 				A4D5DA081D582ECD0066160E /* Assets.xcassets */,
 				A4D5DA0A1D582ECD0066160E /* LaunchScreen.storyboard */,
 				A4D5DA0D1D582ECD0066160E /* Info.plist */,
+				A4C0E4721D5DA42E0017874C /* MUTableViewCell.swift */,
+				A4C0E4741D5DC1C20017874C /* MUView.swift */,
+				A4352E371D5EB352006559B8 /* MUCollectionViewCell.swift */,
+				A4352E391D5F13B7006559B8 /* MUViewController.swift */,
 			);
 			path = Dandan;
 			sourceTree = "<group>";
@@ -256,8 +277,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A42E94571D595BE2008B509E /* Global.swift in Sources */,
 				A4D5DA041D582ECD0066160E /* ViewController.swift in Sources */,
+				A4D5DA301D582F250066160E /* Extentsion.swift in Sources */,
+				A4C0E4731D5DA42E0017874C /* MUTableViewCell.swift in Sources */,
 				A4D5DA021D582ECD0066160E /* AppDelegate.swift in Sources */,
+				A4352E3A1D5F13B7006559B8 /* MUViewController.swift in Sources */,
+				A4C0E4751D5DC1C20017874C /* MUView.swift in Sources */,
+				A4352E381D5EB352006559B8 /* MUCollectionViewCell.swift in Sources */,
+				A48DEDFD1D5AD3FD00874FA8 /* MUNetworkRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,8 +427,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCOOT)/PrefixHeader.pch";
 				INFOPLIST_FILE = Dandan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-DDEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = www.elmsc.com.Dandan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -410,6 +442,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCOOT)/PrefixHeader.pch";
 				INFOPLIST_FILE = Dandan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.elmsc.com.Dandan;
@@ -484,6 +519,7 @@
 				A4D5DA281D582ECD0066160E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4D5DA291D582ECD0066160E /* Build configuration list for PBXNativeTarget "DandanTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +528,7 @@
 				A4D5DA2B1D582ECD0066160E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4D5DA2C1D582ECD0066160E /* Build configuration list for PBXNativeTarget "DandanUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +537,7 @@
 				A4D5DA2E1D582ECD0066160E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
